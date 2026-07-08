@@ -11,7 +11,7 @@ This repository contains the experiment code for the paper. The method construct
 
 Given an $i$-step-ahead distance-field prediction $D_{t+i|t}(x)$, the conformal upper envelope $U_i(x)$ satisfies
 
-$$\mathbb{P}\!\left[D_{t+i}(x) \ge D_{t+i|t}(x) - U_i(x)\;\; \forall x \in \mathcal{X}\right] \ge 1 - \alpha$$
+$$\mathbb{P}\left[D_{t+i}(x) \ge D_{t+i|t}(x) - U_i(x)\;\; \forall x \in \mathcal{X}\right] \ge 1 - \alpha$$
 
 so the certified lower bound
 
