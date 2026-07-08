@@ -15,7 +15,7 @@ $$\mathbb{P}\left[D_{t+i}(x) \ge D_{t+i|t}(x) - U_i(x)\;\; \forall x \in \mathca
 
 so the certified lower bound
 
-$$\underline{D}_{t+i|t}(x) = \max\left\{D_{t+i|t}(x) - U_i(x),\; 0\right\}$$
+$$\mathsf{L}_{t+i|t}(x) = D_{t+i|t}(x) - U_i(x)$$
 
 can be used directly inside a motion planner.
 
